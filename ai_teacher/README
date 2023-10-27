@@ -1,6 +1,7 @@
 Please refer to the document in styled html in the directory.
 
 # AI Teacher and Evaluator
+GPT-model: text-davinci-003
 
 This simple web application allows you to interact with the OpenAI GPT-3 API to generate feedback and evaluations for teacher's prompts and student responses.
 
