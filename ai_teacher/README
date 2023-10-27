@@ -1,64 +1,45 @@
-AI Teacher and Evaluator
+Please refer to the document in styled html in the directory.
+
+# AI Teacher and Evaluator
 
 This simple web application allows you to interact with the OpenAI GPT-3 API to generate feedback and evaluations for teacher's prompts and student responses.
-Getting Started
+
+## Getting Started
 
 Follow these steps to run the application on your local machine:
 
-    Clone the Repository
+0. **Clone the Repository**
 
-    Clone this repository to your local machine using Git:
+   Clone this repository to your local machine using Git: git clone https://github.com/minkyuk/ai_teacher_evaluator.git
 
-    bash
-
-git clone https://github.com/your-username/your-repo.git
-
-Navigate to the Directory
+0. **Navigate to the Directory**
 
 Change your working directory to the project folder:
+cd ai_teacher_evaluator
 
-bash
 
-cd your-repo
-
-Install Dependencies
-
-Install the necessary Python packages using pip:
-
-bash
-
-pip install -r requirements.txt
-
-Set Up Your OpenAI API Key
-
-Before running the application, you need to set your OpenAI API key. Open the app.py file and locate the api_key variable. Replace None with your actual OpenAI API key:
-
-python
-
-api_key = "your-api-key"
-
-Run the Application
+### Run the Application**
 
 Start the Flask application by running the following command:
 
-bash
-
+```
 python app.py
+```
 
 You should see a message indicating that the application is running.
 
-Access the Application
+### Access the Application
 
 Open your web browser and visit http://127.0.0.1:5000/. This will take you to the AI Teacher and Evaluator application.
 
-Set Your OpenAI API Key
+### Set Your OpenAI API Key
 
 On the web page, you will be prompted to enter your OpenAI API key. This is a one-time setup, and you'll only need to do it once.
 
-Choose a Teacher's Question to Prompt
+### Choose a Teacher's Question to Prompt
 
 Select a question from the dropdown list. This question will be used as a prompt to generate a student response.
 
-Assess the Evaluation and Suggestion
+### Assess the Evaluation and Suggestion
 
 After selecting a question, click the "Generate Feedback" button. The application will provide you with an evaluation and suggestion based on the student's response.
