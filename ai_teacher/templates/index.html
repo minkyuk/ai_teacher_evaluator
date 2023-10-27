@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Teacher and Evaluator</title>
+</head>
+<body>
+    <h1>AI Teacher and Evaluator</h1>
+
+    <!-- Set OpenAI API Key -->
+    <h2>Set OpenAI API-key</h2>
+    <form method="POST">
+        <label for="openAI_api_key">Enter OpenAI API Key:</label>
+        <input type="text" name="openAI_api_key" id="openAI_api_key" placeholder="Type your OpenAI API Key" required>
+        <input type="submit" name="set_API_key" value="Set API Key">
+    </form>
+
+    <!-- Generate Feedback to Response -->
+    <h2>Generate Feedback to Response</h2>
+    <form method="POST" action="/">
+        <select name="sentence">
+            {% for sentence in questions %}
+                <option value="{{ sentence }}">{{ sentence }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Generate Feedback</button>
+    </form>
+
+    <!-- Display Selected Sentence, Student Response, Teacher Feedback, and Feedback Evaluation -->
+    {% if selected_sentence %}
+        <h2>Question Asked</h2>
+        <p>{{ selected_sentence }}</p>
+    {% endif %}
+
+    {% if student_response %}
+        <h2>Student Response</h2>
+        <p>{{ student_response }}</p>
+    {% endif %}
+
+    {% if teacher_feedback %}
+        <h2>Teacher Feedback</h2>
+        <p>{{ teacher_feedback }}</p>
+    {% endif %}
+
+    {% if feedback_evaluation %}
+        <h2>Feedback Evaluation</h2>
+        <p>{{ feedback_evaluation }}</p>
+    {% endif %}
+
+    {% if suggestion %}
+        <h2>Suggestion</h2>
+        <p>{{ suggestion }}</p>
+    {% endif %}
+</body>
+</html>

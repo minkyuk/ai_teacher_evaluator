@@ -1,0 +1,22 @@
+questions = [
+    "Briefly describe one major cause of the American Revolution.",
+    "Briefly explain how the Stamp Act contributed to the growing tension between the American colonies and Britain.",
+    "Briefly explain one specific way the American Revolution impacted the political landscape of the newly formed United States.",
+    "Briefly describe one significant event that led to the outbreak of the American Civil War.",
+    "Briefly explain how the issue of slavery contributed to the start of the Civil War.",
+    "Briefly explain one specific way the Civil War impacted the social structure of the Southern United States.",
+    "Briefly describe one major cause of the United States' entry into World War I.",
+    "Briefly explain how the assassination of Archduke Franz Ferdinand led to the start of World War I.",
+    "Briefly explain one specific way World War I impacted the global political landscape.",
+    "Briefly describe one major event that led to the United States' entry into World War II.",
+    "Briefly explain how the Treaty of Versailles contributed to the start of World War II.",
+    "Briefly explain one specific way World War II impacted the global economy.",
+    "Briefly describe one significant outcome of the American Revolution.",
+    "Briefly explain how the Boston Tea Party contributed to the American Revolution.",
+    "Briefly explain one specific way the American Revolution influenced future revolutions around the world.",
+    "Briefly describe one major consequence of the American Civil War.",
+    "Briefly explain how the Emancipation Proclamation affected the course of the Civil War.",
+    "Briefly explain one specific way the Civil War changed the United States Constitution.",
+    "Briefly describe one significant effect of World War I on American society.",
+    "Briefly explain how the sinking of the Lusitania affected the United States' involvement in World War I."
+]
